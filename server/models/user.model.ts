@@ -59,7 +59,7 @@ userSchema
     return this._password;
   });
 
-userSchema.path('hashed_password').validate(function (val) {
+userSchema.path('hashed_password').validate(function (v) {
     if (this._password && this._password.lenth < 6) {
       this.invalidate('password', 'Password must be at least 10 characters long.');
     }
