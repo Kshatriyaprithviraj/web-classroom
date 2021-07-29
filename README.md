@@ -1,1 +1,1 @@
-# Will update README after half way there ! 🤓
+# Will update README when half way there ! 🤓
